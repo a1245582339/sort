@@ -14,10 +14,10 @@
     "url": "https://github.com/haboll/sort.git"
   },
 
-  "main": ".js",
+  "main": "lib/index.js",
 
   "files": [
-
+    "lib/"
   ]
 }
 
