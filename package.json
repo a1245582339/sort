@@ -1,0 +1,23 @@
+{
+  "name": "sort",
+  "version": "0.0.0",
+  "author": "chestnut",
+  "description": "",
+  "dependencies": {
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haboll/sort.git"
+  },
+
+  "main": ".js",
+
+  "files": [
+
+  ]
+}
+
