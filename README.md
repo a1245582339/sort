@@ -3,9 +3,11 @@ A simple JavaScript sorting function in English and Chinese
 
 ## Install
 Start by downloading the dependencies:
+
      $ npm install haboll/sort
 
 ## Import
+
      var sort = require('sort')
      import sort from 'sort'
 
