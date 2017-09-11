@@ -44,9 +44,8 @@ example 2:
 
 
 you can change the order by modifying the object.
+The default object:
 
-
-        The default object:
         {
              SpellSort:true,                    //中文是否按拼音首字母排序
              SpellUp:true,                      //中文是否按拼音首字母正序排序，即a-z
@@ -55,4 +54,5 @@ you can change the order by modifying the object.
              EnglishUp:true,                    //英文排序是否按正序排序， 即a-z
         }
 
-        see the demo for more details.
+
+see the demo for more details.
