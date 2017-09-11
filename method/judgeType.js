@@ -10,14 +10,16 @@ module.exports = function (cha) {
     if(!isNaN(charNum)){
         return  staticType.Number
     }
-    if(reg ===2){
+    else if(reg ===2){
         return  staticType.Chinese
     }
-    if(/[A-Z]/.test(cha)){
+    else if(/[A-Z]/.test(cha)){
         return  staticType.UpperCaseEnglish
     }
-    if(/[a-z]/.test(cha)){
+    else if(/[a-z]/.test(cha)){
         return  staticType.LowerCaseEnglish
     }
-    return staticType.SpecialCharacter
+    else{
+        return staticType.SpecialCharacter  
+    }
 }

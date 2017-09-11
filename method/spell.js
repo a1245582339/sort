@@ -32,11 +32,6 @@ var getFirstLetter= function(str)
 module.exports  = function (A,B,Opt) {
     var APY = getFirstLetter(A)
     var BPY = getFirstLetter(B)
-    order=dict.pyOrder;
-    if(Opt.SpellUp){
-        return  order[APY] - order[BPY] 
-    }else{
-        return  order[BPY] - order[APY] 
-    }
-
+    var order = dict.pyOrder;
+    return Opt.SpellUp ? order[APY] - order[BPY] : order[BPY] - order[APY]
 }

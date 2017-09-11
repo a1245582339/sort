@@ -2,8 +2,7 @@
  * Created by 栗子哥哥 on 2017/8/29.
  */
 
-
-var charType ={
+var staticType ={
     "Number": 0,
     "Chinese": 1,
     "LowerCaseEnglish": 2,
@@ -11,4 +10,4 @@ var charType ={
     "SpecialCharacter": 4,
 }
 
-module.exports = charType
+module.exports = staticType
