@@ -51,7 +51,7 @@ The default object:
         {
              SpellSort:true,                    //中文是否按拼音首字母排序
              SpellUp:true,                      //中文是否按拼音首字母正序排序，即a-z
-             NumberUp: true,                    //数字从大往小排序
+             NumberUp: true,                    //数字从小到大排序
              EnglishBeforeChinese:true,         //中英文排序是否英文在前
              EnglishUp:true,                    //英文排序是否按正序排序， 即a-z
         }
